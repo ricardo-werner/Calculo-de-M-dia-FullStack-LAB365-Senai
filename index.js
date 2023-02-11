@@ -1,4 +1,6 @@
-document.getElementById('calculamedia').onclick = function() {
+let form = document.getElementById('form');
+
+document.getElementById('form').onsubmit = function() {
 event.preventDefault();
 var nome = document.getElementById('nome').value;
 var nota1 = parseFloat(document.getElementById('nota1').value);
